@@ -1,0 +1,98 @@
+super + alt + Escape
+	bspc quit
+
+super + shift c
+	bspc window -c
+
+super + t
+	bspc desktop -l next
+
+super + b
+	bspc desktop -B
+
+super + {s,f}
+	bspc window -t {floating,fullscreen}
+
+super + {grave,Tab}
+	bspc {window,desktop} -f last
+
+super + apostrophe
+	bspc window -s last super + {o,i} bspc control --record-history off; \
+	bspc window {older,newer} -f; \
+	bspc control --record-history on
+
+super + y
+	bspc window -w last.manual
+
+super + m
+	bspc window -s biggest
+
+super + {_,shift + }{h,j,k,l}
+	bspc window -{f,s} {left,next,prev,right}
+
+super + {_,shift + }c
+	bspc window -f {next,prev}
+
+super + e
+        bspc monitor -f $(bspc query -M|tail -n 1)
+
+super + w
+        bspc monitor -f $(bspc query -M|head -n 1)
+
+super + shift + e
+        bspc window -m $(bspc query -M|tail -n 1)
+
+super + shift + w
+        bspc window -m $(bspc query -M|head -n 1)
+
+super + {comma,period}
+	bspc desktop -C {backward,forward}
+
+super + bracket{left,right}
+	bspc desktop -f {prev,next}
+
+super + ctrl + {h,j,k,l}
+	bspc window -p {left,down,up,right}
+
+super + ctrl + {_,shift + }space
+	bspc {window -p cancel,desktop -c}
+
+super + alt + {h,j,k,l}
+	bspc window -e {left -10,down +10,up -10,right +10}
+
+super + ctrl + {1-9}
+	bspc window -r 0.{1-9}
+
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,window -d} ^{1-9,10}
+
+~button1
+	bspc pointer -g focus
+
+super + button{1-3}
+	bspc pointer -g {move,resize_side,resize_corner}
+
+super + !button{1-3}
+  bspc pointer -t %i, %i
+
+super + @button{1-3}
+  bspc pointer -u
+
+super + @button{1-3}
+	bspc pointer -u
+
+super + g
+	firefox
+
+super + o
+        maim --xdisplay=:1 -x 0 -y 0 -w 2560 -h 1440 --showcursor --opengl
+
+super + shift + Return
+	urxvt
+
+super + p
+        dmenu_run -fn "Source Code Pro-11" -nb "#222222" -nf "#ffffff" -sb "#555555" -sf "#ffffff" -p ">"
+
+super + Escape
+	pkill -USR1 -x sxhkd
+
