@@ -1,0 +1,62 @@
+theme
+	name Isotop
+	author nsf <no.smile.face@gmail.com>
+	# original work: http://lassekongo83.deviantart.com/art/Isotop-VS-125186160
+
+panel
+	position bottom
+	background tile.png
+
+desktop_switcher
+	idle
+		left_corner ds-left.png
+		left ds-left.png
+		center tile.png
+		right ds-right.png
+		right_corner ds-right.png
+	
+	pressed
+		left_corner ds-left-active.png
+		left ds-left-active.png
+		center tile.png
+		right ds-right-active.png
+		right_corner ds-right-active.png
+
+empty 10
+
+taskbar
+	idle
+		left tb-left.png
+		center tb-tile.png
+		right tb-right.png
+		font DejaVuSans 8
+			color 255 255 255
+			offset 5 1
+		icon_offset 0 1
+
+	pressed
+		left tb-left-active.png
+		center tb-tile-active.png
+		right tb-right-active.png
+		font DejaVuSans 8
+			color 255 255 255
+			offset 5 1
+		icon_offset 0 1
+
+	default_icon tb_default_icon_img.png
+	task_max_width 220
+
+systray
+	icon_size 24 24
+
+empty 10
+
+clock
+	font DejaVuSans 8
+		color 255 255 255
+		offset 0 1
+		align center
+
+	time_format %H:%M
+
+empty 10

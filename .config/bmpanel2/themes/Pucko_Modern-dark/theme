@@ -1,0 +1,102 @@
+theme
+	name Pucko Modern dark
+	author weakhead <http://weakhead.deviantart.com/>
+	# Original author: lassekongo83
+	# License: Creative Commons Attribution-Noncommercial-Share Alike 3.0
+
+panel
+	position bottom
+	background tile.png
+		
+empty 3
+
+desktop_switcher
+	idle
+		left_corner tile.png
+		left tile.png
+		center tile.png
+		right tile.png
+		right_corner tile.png
+		font Source Code Pro bold 11
+			color 76 76 76
+			offset 0 0
+			align center
+		
+	pressed
+		left_corner tile.png
+		left tile.png
+		center tile.png
+		right tile.png
+		right_corner tile.png
+		font Source Code Pro bold 11
+			color 204 204 204
+			offset 0 0
+			align center
+
+launchbar
+	icon_size 24 24
+
+empty 5
+
+taskbar
+	idle
+		left tb-lr-idle.png
+		center tile.png
+		right tb-lr-idle.png
+		font Source Code Pro 11
+			color 204 204 204
+			offset 5 1
+		icon_offset 0 0
+
+	idle_highlight
+		left tb-left-hover.png
+		center tb-tile-hover.png
+		right tb-right-hover.png
+		font Source Code Pro 11
+			color 0 0 0
+			offset 5 1
+		icon_offset 0 0
+	
+	pressed
+		left tb-left-active.png
+		center tb-tile-active.png
+		right tb-right-active.png
+		font Source Code Pro 11
+			color 255 255 255
+			offset 5 2
+		icon_offset 1 1
+		
+	pressed_highlight
+		left tb-left-hover.png
+		center tb-tile-hover.png
+		right tb-right-hover.png
+		font Source Code Pro 11
+			color 89 89 89
+			offset 5 2
+		icon_offset 1 1
+
+	task_max_width 200
+	default_icon default_icon.png
+
+empty 7
+
+systray
+	icon_size 18 18
+                offset 0 1
+
+empty 3
+
+clock
+	background
+		left tile.png
+		center tile.png
+		right tile.png
+		
+	font Source Code Pro bold 12
+		color 204 204 204
+		offset 0 0
+		align center
+
+	time_format %D %H:%M
+
+empty 2

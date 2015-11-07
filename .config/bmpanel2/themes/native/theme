@@ -1,0 +1,94 @@
+theme
+	name Native
+	author nsf <no.smile.face@gmail.com>
+
+panel
+	position bottom
+	separator separator_img.png
+	background tile_img.png
+
+desktop_switcher
+	idle
+		left_corner ds_left_corner_idle_img.png
+		left ds_left_idle_img.png
+		center tb_tile_idle_img.png
+		right ds_right_idle_img.png
+		right_corner ds_right_corner_idle_img.png
+		font DejaVuSans 8
+			color 255 255 255
+			offset 0 1
+	pressed
+		left_corner ds_left_corner_pressed_img.png
+		left ds_left_pressed_img.png
+		center tb_tile_pressed_img.png
+		right ds_right_pressed_img.png
+		right_corner ds_right_corner_pressed_img.png
+		font DejaVuSans 8
+			color 255 255 255
+			offset 0 1
+
+	separator ds_separator_img.png
+
+pager
+	idle
+		border 43 56 63
+		fill 88 102 109
+		inactive_window_border 73 101 120
+		inactive_window_fill 43 56 63
+		active_window_border 73 101 120
+		active_window_fill 43 56 63
+		font DejaVu Sans 8
+			color 230 230 230
+			offset -2 4
+			align right
+			shadow_offset 1 1
+			shadow_color 0 0 0
+
+	pressed
+		border 43 56 63
+		fill 74 113 137
+		inactive_window_border 150 150 150
+		inactive_window_fill 43 56 63
+		active_window_border 91 156 186
+		active_window_fill 67 94 116
+
+	height 21
+	desktop_spacing 5
+
+launchbar 
+	icon_size 24 24
+
+taskbar
+	idle
+		left tb_left_idle_img.png
+		center tb_tile_idle_img.png
+		right tb_right_idle_img.png
+		font DejaVuSans 8
+			color 255 255 255
+			offset 5 1
+		icon_offset 0 1
+
+	pressed
+		left tb_left_pressed_img.png
+		center tb_tile_pressed_img.png
+		right tb_right_pressed_img.png
+		font DejaVuSans 8
+			color 255 255 255
+			offset 5 1
+		icon_offset 0 1
+
+	default_icon default_icon.png
+
+systray
+	icon_size 24 24
+
+clock
+	background
+		left clock_left_img.png
+		center clock_tile_img.png
+		right clock_right_img.png
+
+	font DejaVuSans 14
+		color 255 255 255
+		offset 0 1
+		align center

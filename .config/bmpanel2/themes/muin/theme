@@ -1,0 +1,65 @@
+theme
+	name Muin
+	author nsf <no.smile.face@gmail.com>
+	# original work: http://lassekongo83.deviantart.com/art/Muin-VS-103539809
+
+panel
+	position bottom
+	background tile.png
+
+desktop_switcher
+	idle
+		left_corner ds-left.png
+		left ds-left.png
+		center ds-tile.png
+		right ds-right.png
+		right_corner ds-right.png
+	
+	pressed
+		left_corner ds-left-active.png
+		left ds-left-active.png
+		center ds-tile-active.png
+		right ds-right-active.png
+		right_corner ds-right-active.png
+
+taskbar
+	idle
+		left tile.png
+		center tile.png
+		right tile.png
+		font DejaVuSans 8
+			color 140 140 140
+			offset 5 0
+			shadow_color 0 0 0
+			shadow_offset -1 -1
+		icon_offset 15 0
+
+	pressed
+		stretched_overlap
+		left tb-left-active.png
+		center tb-tile-active.png
+		right tb-right-active.png
+		font DejaVuSans 8
+			color 255 255 255
+			offset 5 0
+			shadow_color 0 0 0
+			shadow_offset -1 -1
+		icon_offset -2 0
+
+	default_icon tb_default_icon_img.png
+
+systray
+	icon_size 16 16
+
+clock
+	background
+		left tile.png
+		center tile.png
+		right tile.png
+
+	font DejaVuSans 8
+		color 255 255 255
+		offset 0 1
+		align center
+
+	time_format %H:%M

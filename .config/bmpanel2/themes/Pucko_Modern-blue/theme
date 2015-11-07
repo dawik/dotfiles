@@ -1,0 +1,102 @@
+theme
+	name Pucko Modern blue
+	author weakhead <http://weakhead.deviantart.com/>
+	# Original author: lassekongo83
+	# License: Creative Commons Attribution-Noncommercial-Share Alike 3.0
+
+panel
+	position bottom
+	background tile.png
+		
+empty 3
+
+desktop_switcher
+	idle
+		left_corner tile.png
+		left tile.png
+		center tile.png
+		right tile.png
+		right_corner tile.png
+		font DejaVu Sans condensed bold 9
+			color 170 170 170
+			offset 0 0
+			align center
+		
+	pressed
+		left_corner tile.png
+		left tile.png
+		center tile.png
+		right tile.png
+		right_corner tile.png
+		font DejaVu Sans condensed bold 9
+			color 32 50 77
+			offset 0 0
+			align center
+
+launchbar
+	icon_size 16 16
+
+empty 5
+
+taskbar
+	idle
+		left tb-lr-idle.png
+		center tile.png
+		right tb-lr-idle.png
+		font DejaVu Sans condensed 8
+			color 32 50 77
+			offset 5 1
+		icon_offset 0 0
+
+	idle_highlight
+		left tb-left-hover.png
+		center tb-tile-hover.png
+		right tb-right-hover.png
+		font DejaVu Sans condensed 8
+			color 51 82 125
+			offset 5 1
+		icon_offset 0 0
+	
+	pressed
+		left tb-left-active.png
+		center tb-tile-active.png
+		right tb-right-active.png
+		font DejaVu Sans condensed 8
+			color 32 50 77
+			offset 5 2
+		icon_offset 1 1
+		
+	pressed_highlight
+		left tb-left-hover.png
+		center tb-tile-hover.png
+		right tb-right-hover.png
+		font DejaVu Sans condensed 8
+			color 32 50 77
+			offset 5 2
+		icon_offset 1 1
+
+	task_max_width 200
+	default_icon default_icon.png
+
+empty 7
+
+systray
+	icon_size 16 16
+	icon_spacing 2
+
+empty 3
+
+clock
+	background
+		left tile.png
+		center tile.png
+		right tile.png
+		
+	font DejaVu Sans condensed bold 9
+		color 32 50 77
+		offset 0 0
+		align center
+
+	time_format %H:%M
+
+empty 2

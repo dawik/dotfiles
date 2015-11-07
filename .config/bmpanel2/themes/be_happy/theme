@@ -1,0 +1,118 @@
+theme
+	name etched
+	author na12
+
+panel
+	position bottom
+	background tb-center-idle.png
+	transparent
+
+empty 5
+desktop_switcher
+	paint_replace
+	idle
+		left_corner ds-left-corner.png
+		left ds-left.png
+		center ds-center.png
+		right ds-right.png
+		right_corner ds-right-corner.png
+
+	idle_highlight
+		left_corner ds-left-h-corner.png
+		left ds-left-h.png
+		center ds-center-h.png
+		right ds-right-h.png
+		right_corner ds-right-h-corner.png
+
+	pressed
+		left_corner ds-left-active-corner.png
+		left ds-left-active.png
+		center ds-center-active.png
+		right ds-right-active.png
+		right_corner ds-right-active-corner.png
+
+	pressed_highlight
+		left_corner ds-left-active-h-corner.png
+		left ds-left-active-h.png
+		center ds-center-active-h.png
+		right ds-right-active-h.png
+		right_corner ds-right-active-h-corner.png
+empty 10
+launchbar
+	icon_size 24 24
+	icon_offset 0 0
+	icon_spacing 5
+empty 10
+taskbar
+	paint_replace
+	idle
+		stretched
+		left tb-left-idle.png
+		center tb-center-idle.png
+		right tb-right-idle.png
+		font ubuntu 9
+			color 153 153 153
+			offset 0 0
+			align center
+			shadow_offset 1 1
+			shadow_color 0 0 0
+		icon_offset 2 0
+
+	idle_highlight
+		stretched
+		left tb-left-h.png
+		center tb-center-h.png
+		right tb-right-h.png
+		font ubuntu 9
+			color 255 255 255
+			offset 0 0
+			align center
+			shadow_offset 1 1
+			shadow_color 0 0 0
+		icon_offset 2 0
+
+	pressed
+		stretched
+		left tb-left-active.png
+		center tb-center-active.png
+		right tb-right-active.png
+		font ubuntu 9
+			color 170 170 170
+			offset 0 0
+			align center
+			shadow_offset 1 1
+			shadow_color 0 0 0
+		icon_offset 2 0
+
+	pressed_highlight
+		stretched
+		left tb-left-active-h.png
+		center tb-center-active-h.png
+		right tb-right-active-h.png
+		font ubuntu 9
+			color 255 255 255
+			offset 0 0
+			align center
+			shadow_offset 1 1
+			shadow_color 0 0 0
+		icon_offset 2 0
+      
+	task_max_width 200
+empty 10
+
+systray
+	icon_size 20 20
+	icon_spacing 3
+	icon_offset 0 0
+empty 10
+clock
+
+	font DS-Digital bold 16
+		color 136 136 136
+		offset 0 0
+		shadow_offset 1 1
+		shadow_color 0 0 0
+		align center
+
+	time_format %H:%M
+empty 5
