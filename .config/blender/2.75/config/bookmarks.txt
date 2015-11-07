@@ -1,0 +1,12 @@
+[Bookmarks]
+[Recent]
+/home/dave/Blender/
+/home/dave/dev/Assimp-GL-Wrapper/build/data/
+/tmp/asstools/
+/home/dave/dev/shoestring/assets/
+/home/dave/dev/iqm/demo/
+/home/dave/dev/blender.py/
+/home/dave/dev/fps-build/assets/
+/tmp/Assimp-GL-Wrapper/build/data/
+/home/dave/dev/iqm/blender-2.74/
+/home/dave/dev/fps-build/assets/sandbox.fbm/

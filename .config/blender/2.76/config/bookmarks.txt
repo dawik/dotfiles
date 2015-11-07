@@ -1,0 +1,3 @@
+[Bookmarks]
+[Recent]
+/home/dave/dev/Assimp-GL-Wrapper/build/data/

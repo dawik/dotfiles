@@ -1,0 +1,10 @@
+/home/dave/repos/own/fps/animatedcat5.blend
+/home/dave/repos/own/fps/animatedcat3.blend
+/home/dave/repos/own/fps/animatedcat4.blend
+/home/dave/repos/own/fps/animatedcat.blend
+/home/dave/repos/own/fps/animatedcat2.blend
+/home/dave/repos/own/fps/tuffkatt.blend
+/home/dave/Blender/artful dodger-daverönncolab-textured.blend
+/home/dave/Blender/artful dodger-daverönncolab.blend
+/home/dave/repos/own/fps/dodger.blend
+/home/dave/repos/own/fps/artful dodger-daverönncolab.blend

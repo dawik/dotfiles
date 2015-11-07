@@ -1,0 +1,11 @@
+[Bookmarks]
+[Recent]
+/home/dave/
+/tmp/
+/home/dave/repos/fps/models/
+/home/dave/repos/n-body-simulation/
+/home/dave/repos/moba/
+/home/dave/repos/nbodysimulation/
+/home/dave/Downloads/
+/tmp/nbodysimulation/
+/home/dave/geometry/

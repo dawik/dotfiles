@@ -1,0 +1,12 @@
+[Bookmarks]
+[Recent]
+/home/dave/repos/own/fps/
+/home/dave/
+/home/dave/Pictures/
+/home/dave/Blender/
+/home/dave/books/
+/home/dave/Kod/ExtractBulldetFromBlenderRender/
+/tmp/bullet3/data/
+/home/dave/Downloads/
+/tmp/
+/home/dave/Downloads/void/models/heroes/faceless_void/fbx/
