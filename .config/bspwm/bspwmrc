@@ -2,15 +2,18 @@
 
 bspc config border_width       5
 bspc config window_gap         12
+bspc config top_padding        18
+bspc config bottom_padding     22
 
 bspc config split_ratio         0.52
 bspc config borderless_monocle  true
 bspc config gapless_monocle     true
 bspc config focus_by_distance   true
-bspc config focus_follows_pointer true
+#bspc config focus_follows_pointer false
 
 bspc config presel_border_color "#FFFFFF"
 bspc config focused_border_color "#3366AA"
+bspc config normal_border_color "#000000"
 bspc config auto_cancel on
 
 bspc monitor DVI-I-2 -d        # Terminals WWW Graphics Dev Social Torrent Games
@@ -26,12 +29,15 @@ setxkbmap -layout se
 xrandr --output DVI-I-3 --auto --right-of DVI-I-2
 bspc config bottom_padding 20
 hsetroot -solid #333333
-feh --bg-tile ~/Pictures/ShatteredIslandsTiles.gif
+feh --bg-center ~/Pictures/wallpapers/galaxy.jpg
 #compton --backend glx --paint-on-overlay --vsync opengl-swc &
 mousesettings
 dunst &
 bmpanel2 &
 checkmail &
-resumeirc &
 steam &
 resize_bspwm.sh &
+volumeicon & 
+pulsar &
+bbpager &
+resumeirc &

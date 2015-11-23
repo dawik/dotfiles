@@ -36,6 +36,37 @@ desktop_switcher
 launchbar
 	icon_size 24 24
 
+
+
+pager
+	idle
+		border 76 76 76
+		fill 178 178 178
+		inactive_window_border 76 76 76
+		inactive_window_fill 140 140 140
+		active_window_border 0 0 0
+		active_window_fill 80 80 80
+		font DejaVuSans 8
+			color 0 0 0
+			offset -4 5
+			align right
+
+	pressed
+		border 0 0 0
+		fill 220 220 220
+		inactive_window_border 76 76 76
+		inactive_window_fill 140 140 140
+		active_window_border 0 0 0
+		active_window_fill 80 80 80
+		font DejaVuSans 8
+			color 0 0 0
+			offset -4 5
+			align right
+
+	height 24
+	desktop_spacing 5
+
+
 empty 5
 
 taskbar
@@ -81,8 +112,8 @@ taskbar
 empty 7
 
 systray
-	icon_size 18 18
-                offset 0 1
+	icon_size 20 20
+        icon_offset 0 1
 
 empty 3
 
@@ -97,6 +128,6 @@ clock
 		offset 0 0
 		align center
 
-	time_format %D %H:%M
+	time_format %H:%M
 
 empty 2

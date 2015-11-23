@@ -1,4 +1,5 @@
-export TERM='linux'
+export TERM='xterm'
+setopt PROMPT_SUBST
 export PS1='$(path) %% '
 export ERL_LIBS=/home/dave/erl_libs
 export PATH=$PATH:$HOME/bin
@@ -17,7 +18,7 @@ esac
 autoload -U zmv
 alias mmv='noglob zmv -W'
 set directory=tmp,/tmp
-alias vi=vim
+alias vi=nvim
 alias ls='ls --color=auto'
 sprunge() { curl -F 'sprunge=<-' http://sprunge.us < "${1:-/dev/stdin}"; }
 xset q | grep -A 0 Pointer > /dev/null

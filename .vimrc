@@ -1,21 +1,15 @@
-" Vundle
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" Plug
+call plug#begin()
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
-Plugin 'scrooloose/syntastic'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'jimenezrick/vimerl'
-Plugin 'junegunn/goyo.vim'
-Plugin 'junegunn/limelight.vim'
-Plugin 'bling/vim-airline'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'scrooloose/syntastic'
+Plug 'jimenezrick/vimerl'
+Plug 'bling/vim-airline'
+Plug 'tpope/vim-fugitive'
+Plug 'Valloric/YouCompleteMe'
 
-call vundle#end()
+call plug#end()
 
 " Per filetype settings
 autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
@@ -32,8 +26,12 @@ autocmd FileType python setlocal ts=4 sts=4 sw=4 expandtab
 autocmd FileType sh setlocal ts=4 sts=4 sw=4 expandtab
 autocmd FileType erlang setlocal ts=4 sts=4 sw=4 expandtab
 
+" Deoplete
+let g:deoplete#enable_at_startup = 1
+
 " Settings
 filetype plugin indent on
+set nocompatible
 syntax on
 syntax enable
 let g:indent_guides_enable_on_vim_startup = 0
@@ -104,7 +102,7 @@ map <C-H> <C-W>h<C-W>_
 map <C-L> <C-W>l<C-W>_
 
 nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
-nnoremap <C-p> :r !xsel <cr>
+"nnoremap <C-p> :r !xsel <cr>
 vnoremap <Space> zf
 
 inoremap <Left>  <NOP>

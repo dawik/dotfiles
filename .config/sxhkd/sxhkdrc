@@ -33,17 +33,8 @@ super + {_,shift + }{h,j,k,l}
 super + {_,shift + }c
 	bspc window -f {next,prev}
 
-super + e
-        bspc monitor -f $(bspc query -M|tail -n 1)
-
-super + w
-        bspc monitor -f $(bspc query -M|head -n 1)
-
-super + shift + e
-        bspc window -m $(bspc query -M|tail -n 1)
-
-super + shift + w
-        bspc window -m $(bspc query -M|head -n 1)
+super {_, shift} + {e, w}
+    bspc {monitor -f, window -m} $(bspc query -M|{tail, head} -n 1)
 
 super + {comma,period}
 	bspc desktop -C {backward,forward}
@@ -82,16 +73,19 @@ super + @button{1-3}
 	bspc pointer -u
 
 super + g
-	firefox
+	alltray firefox
 
 super + o
         maim --xdisplay=:1 -x 0 -y 0 -w 2560 -h 1440 --showcursor --opengl
 
 super + shift + Return
-	urxvt
+	alltray urxvt
 
 super + p
         dmenu_run -fn "Source Code Pro-11" -nb "#222222" -nf "#ffffff" -sb "#555555" -sf "#ffffff" -p ">"
+
+super + space
+        bspc desktop -R 90
 
 super + Escape
 	pkill -USR1 -x sxhkd
